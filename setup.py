@@ -63,7 +63,7 @@ if not os.path.exists(PythonH):
     sys.exit(-1)
 
 setup(
-    version              = '4.14.0',
+    version              = '4.14.1',
     data_files           = [('pwntools-doc',
                              glob.glob('*.md') + glob.glob('*.txt')),
                             ],
